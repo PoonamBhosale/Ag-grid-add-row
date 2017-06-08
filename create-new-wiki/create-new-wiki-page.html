@@ -1,0 +1,41 @@
+<!-- <div class="task-summary-view">
+    <div class="layout-row layout-wrap">
+        <div class="flex-100">
+          <md-input-container class="md-block margin-bottom-0">
+            <input type="text" name="" value="" ng-model="createnewwiki">
+          </md-input-container>
+        </div>
+    </div>
+</div>
+<div class="layout-row layout-align-start-center padding-bottom-5">
+    <div class="flex"></div>
+    <md-button class="md-primary margin-left-0" ng-click="vm.submitwiki()">SAVE</md-button>
+    <md-button class="margin-right-0" ng-click="vm.cancel()">cancel</md-button>
+</div> -->
+<md-dialog aria-label="Audit" ng-cloak style="min-width:400px;height:200px;border-radius:0px;">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <span class="md-subhead">Create New Wiki</span>
+            <span flex></span>
+            <md-button class="md-icon-button" aria-label="Layer Close" ng-click="vm.cancel()">
+                <md-icon md-font-icon="zmdi zmdi-close"></md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+    <md-dialog-content class="ag-grid-table ag-material ag-jcp2 height-48">
+<div class="task-summary-view">
+    <div class="layout-row layout-wrap">
+        <div class="flex-100">
+          <md-input-container class="md-block margin-bottom-0">
+            <input type="text" name="" value="" ng-model="createnewwiki">
+          </md-input-container>
+        </div>
+    </div>
+</div>
+<div class="layout-row layout-align-start-center padding-bottom-5">
+    <div class="flex"></div>
+    <md-button class="md-primary margin-left-0" ng-click="vm.submitwiki()">SAVE</md-button>
+    <md-button class="margin-right-0" ng-click="vm.cancel()">cancel</md-button>
+</div>
+</md-dialog-content>
+</md-dialog>

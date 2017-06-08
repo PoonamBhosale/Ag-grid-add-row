@@ -1,0 +1,26 @@
+<div class="layout-fill" md-colors="{ background: 'white' }">
+    <md-subheader class="jcp-subheader height-56 md-no-sticky">
+        <div class="layout-row layout-align-start-center" ng-hide="vm.showSearch">
+            <div class="flex md-subheadblack">
+                Wiki
+            </div>
+            <md-button class="md-icon-button" aria-label="Share" ng-click="vm.addItem($event)">
+                <md-icon md-font-icon="zmdi zmdi-plus-circle-o"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="Share">
+                <md-icon md-font-icon="zmdi zmdi-share"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="Print">
+                <md-icon md-font-icon="zmdi zmdi-print"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="Download">
+                <md-icon md-font-icon="zmdi zmdi-download"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="Search" ng-click="vm.toggleSearch()">
+                <md-icon md-font-icon="zmdi zmdi-search"></md-icon>
+            </md-button>
+        </div>
+    </md-subheader>
+    <div class="ag-material ag-jcp2 height-56" ag-grid="vm.gridOptions"></div>
+    </div>
+</div>
